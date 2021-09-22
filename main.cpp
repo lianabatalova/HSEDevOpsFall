@@ -1,5 +1,10 @@
 #include <iostream>
 
+template<typename T>
+auto MajorSum(T a, T b) {
+    return a + b;
+}
+
 int main(int argc, char** argv) {
     for (int i = 0; i < argc; ++i) {
         std::cout << argv[i] << ", ";
