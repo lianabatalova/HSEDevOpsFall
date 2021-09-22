@@ -1,6 +1,7 @@
 #include <iostream>
 
-int majorSum(int a, int b) {
+template<typename T>
+auto majorSum(T a, T b) {
     return a + b;
 }
 
