@@ -1,7 +1,7 @@
 #include <iostream>
 
 template<typename T>
-auto majorSum(T a, T b) {
+auto MajorSum(T a, T b) {
     return a + b;
 }
 
