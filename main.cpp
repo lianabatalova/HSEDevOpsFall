@@ -2,7 +2,7 @@
 
 template<typename T>
 auto MajorSum(T x, T y) {
-    return x + y + 16;
+    return x + y;
 }
 
 int main(int argc, char** argv) {
