@@ -10,5 +10,6 @@ int main(int argc, char** argv) {
         std::cout << argv[i] << ", ";
     }
     std::cout << std::endl;
+    std::cout << MinorSub(4, 3) << std::endl;
     return 0;
 }
