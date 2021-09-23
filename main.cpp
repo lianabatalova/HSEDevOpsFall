@@ -1,6 +1,7 @@
 #include <iostream>
 
-int MinorSub(int a, int b) {
+template<typename T>
+auto MinorSub(T a, T b) {
     return a - b;
 }
 
