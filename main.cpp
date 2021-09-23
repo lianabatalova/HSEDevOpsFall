@@ -15,6 +15,10 @@ auto MinorSub(T x, T y) {
     return x - y;
 }
 
+bool IsEqual(int x, int y) {
+    return x == y;
+}
+
 int main(int argc, char** argv) {
     std::cout << "release current version: 1.0" << std::endl;
     for (int i = 0; i < argc; ++i) {
