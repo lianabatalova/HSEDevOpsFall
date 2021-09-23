@@ -1,8 +1,8 @@
 #include <iostream>
 
 template<typename T>
-auto MinorSub(T a, T b) {
-    return a - b;
+auto MinorSub(T x, T y) {
+    return x - y;
 }
 
 int main(int argc, char** argv) {
