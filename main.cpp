@@ -5,7 +5,8 @@ auto MajorSum(T x, T y) {
     return x + y + 16;
 }
 
-int MajorMult(int x, int y) {
+template<typename T>
+auto MajorMult(T x, T y) {
     return x * y;
 }
 
