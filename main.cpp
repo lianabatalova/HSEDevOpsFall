@@ -11,5 +11,6 @@ int main(int argc, char** argv) {
         std::cout << argv[i] << ", ";
     }
     std::cout << "bye" << std::endl;
-    return 0;
+    std::cout << std::endl;
+    return 1;
 }
